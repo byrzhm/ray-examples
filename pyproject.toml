@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "ray[data]>=2.46.0",
+    "numpy>=1.26.4",
+    "ray[cpp,data,default]>=2.46.0",
     "vllm==0.7.2",
 ]
